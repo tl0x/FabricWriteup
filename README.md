@@ -231,14 +231,14 @@ You may have realised that I haven't taught you how to make anything cool, like 
 
 ## 3.0.2 Useful classes for client-side mods
 
-``MinecraftClient.class`` - The most important class. Many important and useful fields and methods.
-``ClientPlayerEntity.class`` - Crucial for how the player is handled client side
-``GameRenderer.class`` - Absolutely crucial if you want your mod to render anything
-``Mouse.class`` - Can be used to detect mouse input
-``Screen.class`` - Need to edit anything on 
-``TitleScreen.class`` - Need to edit anything on the TitleScreen? Look for a method in this class.
-``PlayerEntity.class`` - Shared code on how Players are handled
-``Keyboard.class`` - Used earlier. Good for detecting keybinds.
+- ``MinecraftClient.class`` - The most important class. Many important and useful fields and methods.
+- ``ClientPlayerEntity.class`` - Crucial for how the player is handled client side
+- ``GameRenderer.class`` - Absolutely crucial if you want your mod to render anything
+- ``Mouse.class`` - Can be used to detect mouse input
+- ``Screen.class`` - Need to edit anything on 
+- ``TitleScreen.class`` - Need to edit anything on the TitleScreen? Look for a method in this class.
+- ``PlayerEntity.class`` - Shared code on how Players are handled
+- ``Keyboard.class`` - Used earlier. Good for detecting keybinds.
 
 ## 4.0 Further Reading
 
