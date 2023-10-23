@@ -221,6 +221,22 @@ Now that our mixin is registered, lets try again.
 
 We can now see that our mod works without error. 
 
+## 2.3 Exporting our mod
+
+Fabric uses gradle, a java build tool. To export our mod into a jar, run the gradle build command, which can found here. 
+
+![build1](images/build1.png)
+
+After finishing building, the completed jars will be found in the build/libs folder. Make sure to use the non-sources jar.
+
+![build2](images/build2.png)
+
+You can now drag your mod into your mods folder for your use.
+
+# 2.3.1 How do I change the name of my mod?
+
+To change the name of your mod, change find ``fabric.mod.json``. That is where all the information of a mod lies. You can also change the author, icon and many other aspects of your mod. You may also hve to adjust some settings in ``build.gradle`` and ``gradle.properties``. You may also change your maven group.
+
 ## 3.0.0 Further Learning
 
 Throughout the tutorial, you may have encountered some things that don't make sense, and that's okay. I didn't learn this instantly either. Now it is up to you to learn and read the source code yourself. Find other peoples code. Read the fabric wiki. All that stuff. 
@@ -230,6 +246,7 @@ Throughout the tutorial, you may have encountered some things that don't make se
 You may have realised that I haven't taught you how to make anything cool, like adding blocks or tools. That is because those mods cannot be done purely client side. The [fabric wiki](https://fabricmc.net/wiki/tutorial:sidebar?s[]=adding&s[]=blocks) has multiple good resources if you want to make non-clientside mods.
 
 ## 3.0.2 Useful classes for client-side mods
+## 3.0.2 Useful classes for client-side mods (Yarn mappings)
 
 - ``MinecraftClient.class`` - The most important class. Many important and useful fields and methods.
 - ``ClientPlayerEntity.class`` - Crucial for how the player is handled client side
