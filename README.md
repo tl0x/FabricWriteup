@@ -245,7 +245,6 @@ Throughout the tutorial, you may have encountered some things that don't make se
 
 You may have realised that I haven't taught you how to make anything cool, like adding blocks or tools. That is because those mods cannot be done purely client side. The [fabric wiki](https://fabricmc.net/wiki/tutorial:sidebar?s[]=adding&s[]=blocks) has multiple good resources if you want to make non-clientside mods.
 
-## 3.0.2 Useful classes for client-side mods
 ## 3.0.2 Useful classes for client-side mods (Yarn mappings)
 
 - ``MinecraftClient.class`` - The most important class. Many important and useful fields and methods.
